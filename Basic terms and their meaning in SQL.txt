@@ -1,0 +1,45 @@
+Ques.1    What is Data modelling ? What is E-R modeling ?
+
+Ans.    Process of creating a visual representation or structure of data and its relationships within a system or database, also helps us define how
+            data is stored, connected and accessed.
+    
+Types of data models - Conceptual, Logical and Physical
+
+E-R model is a high-level conceptual data model used to design and represent the structure of a database visually. 
+
+
+
+
+Ques.2   What is DBMS and explain its features over file system.
+
+Ans.   It is a software that allows users to define, create, maintain and control access to databases. It provides an organized way to store, retrieve and manage data efficiently.
+
+
+File System -                                                                                                                      DBMS-
+
+A way to store and organize files on storage devices.                                                  Software to store, manage, and retrieve data efficiently.
+Stores data as individual files.                                                                                         Stores data in structured formats (tables, schemas).
+same data may be stored in multiple files.                                                                     normalization helps reduce redundancy.
+Manual, through file-handling code.                                                                                Query-based using languages like SQL.
+Difficult to enforce consistently.                                                                                       Constraints and relationships help maintain integrity.
+Access usually managed by OS.											     Advanced security features (user roles, permissions).	
+Manual and complex.													     Automated backup and recovery options.
+Hard to manage simultaneous access.                                                                           Built-in support for multi-user access.
+custom code required.                                                                                                       Powerful querying through SQL or APIs.
+Becomes inefficient as data grows.                                                                                 Designed to handle large-scale data efficiently.
+Difficult to model complex relationships.                                                                        Easily manages relationships via foreign keys.  
+
+
+
+
+Ques.3   Types of DBMS and explain each one of them.
+
+Ans.     Hierarchical DBMS - Data organized in a tree-like structure (parent-child). Rigid structure; difficult to modify.
+           
+     Network DBMS - More flexible; allows many - to - many relationships using a graph structure, more flexible than hierarchical, and complex to design and maintain.
+
+   Relational DBMS - Data is stored in tables with rows and columns, e.g. MySQL, easy to use.
+
+  Object-Oriented DBMS - Stores data as objects, like in OOP, less widely used, complex queries. 
+
+
